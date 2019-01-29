@@ -5,22 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>My Cool Site</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
   </head>
+
   <body>
     <h1>Hello World!</h1>
-    <p>My name is Luke King</p>
-    <!-- What I did before Code Works -->
-    <p>Before I came to Code Works I was in farming and construstion.</p>
-    <p>My favorite things:</p>
-    <ul>
-      <li>Snowboarding</li>
-      <li>Dogs</li>
-      <li>Outdoors</li>
-      <li>Coding</li>
-      <li>Learning</li>
-    </ul>
+    <!-- This is where the Visitor will input their name. -->
+    <input type="text" placeholder="Name" id="name" />
+    <p id="intro_p">My name is <span id="namea"></span></p>
+    <!-- What You did before Code Works -->
+    <input type="text" id="history1" placeholder="Previous Work" />
+    <input type="text" id="history2" placeholder="And Before That?" />
+
+    <p>
+      Before I came to Code Works I was in <span id="history1a"></span> and
+      <span id="history2a"></span>.
+    </p>
+    <p>Hobbies:</p>
+    <p>
+      <input type="text" id="hobbies" placeholder="Your Hobbies" /> Press ENTER
+      after each entry
+    </p>
+
+    <ul></ul>
     <!--  -->
+    <script src="scripts.js"></script>
   </body>
 </html>

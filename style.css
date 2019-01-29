@@ -1,0 +1,13 @@
+body {
+  background: lightblue;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.562);
+  padding: .25rem;
+}
