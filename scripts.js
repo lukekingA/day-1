@@ -11,6 +11,8 @@ function updater(event) {
   document.getElementById(event.target.id + "a").innerText = text;
 }
 
+
+//Adding Handlers for the inputs
 inputs.forEach(item => {
   if (item.id != "hobbies") {
     item.addEventListener("keyup", updater)
@@ -23,13 +25,3 @@ inputs.forEach(item => {
     })
   }
 })
-
-
-
-
-
-
-// yourName.addEventListener("keyup", (e) => {
-//   updater(e);
-//   greeting.innerText = greetingValue + " " + input.value;
-// })
